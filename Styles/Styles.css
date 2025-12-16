@@ -5,8 +5,8 @@
 }
 
 .header {
-    height: 670px; 
-    width: 100vw; 
+    width: 100vw;
+    height: 670px;  
     background: url(../assets/imagenes/angel.jpg); 
     background-position: center;
     background-size: cover;
@@ -23,14 +23,14 @@
     margin-bottom: 55px;
 }
 
-.header #music{
+#music{
     color: white;
 }
-
+/*
 .main { 
     padding: 40px; 
 }
-
+*/
 .content {
     background-color: white;
     display: flex; 
@@ -46,13 +46,16 @@
 }
 
 h2 {
-    color: #F55353; 
+    color: black;    
     padding-bottom: 20px;
-    font-size: 55px;
+    font-size: 50px;
+    font-family: sans-serif;
 }
 
-h2 .fun{
-    color: black;
+.fun{
+    background: linear-gradient(90deg, #ff450deb, #f80074f5);
+    background-clip: text;
+    color: transparent;
 }
 
 .text {
@@ -83,4 +86,21 @@ button {
     display: flex; 
     flex-direction: row-reverse;
     align-items: center;
+}
+
+.footer {
+    width: 100vw;
+    background-color: #F55353; 
+    color: #ffffff;
+    padding: 60px 0 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.columnas {
+    width: 85%;
+    margin: auto;
+    display: flex;                    
+    justify-content: center;
+    gap: 133px;
+
 }
