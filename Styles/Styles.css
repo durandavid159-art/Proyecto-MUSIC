@@ -92,7 +92,7 @@ button {
     color: white;
     width: 50%; 
     padding-top: 40px;
-    padding-right: 20px;
+    padding-right: 50px;
 }
 
 .secciontres{
@@ -117,5 +117,32 @@ button {
     display: flex;                    
     justify-content: center;
     gap: 133px;
+}
 
+.columna h4 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.columna p {
+    font-size: 14px;
+    margin: 8px 0;
+    opacity: 0.85;                     
+}
+
+hr {
+    width: 85%;
+    height: 1px;
+    background-color: rgba(255,255,255,0.4);
+    margin: 40px auto 20px auto;
+}
+
+.creditos {
+    width: 85%;
+    margin: auto;
+    display: flex;                     
+    justify-content: space-between;    
+    font-size: 13px;
+    opacity: 0.85;
 }
