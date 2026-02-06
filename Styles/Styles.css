@@ -1,7 +1,8 @@
 *{ 
     box-sizing: border-box;
     margin: 0px;
-    padding: 0px;      
+    padding: 0px;     
+    font-family: sans-serif; 
 }
 
 .header {
@@ -18,19 +19,19 @@
 
 .header h1 {
     color: #ffffff4f; 
-    font-family: monospace;
     font-size: 150px; 
     margin-bottom: 55px;
+}
+
+p {
+    line-height: 2;
+    font-size: 16px;
 }
 
 #music{
     color: white;
 }
-/*
-.main { 
-    padding: 40px; 
-}
-*/
+
 .content {
     background-color: white;
     display: flex; 
@@ -60,7 +61,7 @@ h2 {
 
 .text {
     width: 50%; 
-    padding-top: 40px;
+    padding-top: 65px;
 }
 
 button {
@@ -95,20 +96,18 @@ button {
     padding-right: 50px;
 }
 
-.secciontres{
+.secciontres {
     color: white;
     padding-bottom: 20px;
     font-size: 50px;
-    font-family: sans-serif;
     padding-right: 20px;
 }
 
 .footer {
     width: 100vw;
-    background-color: #F55353; 
+    background: linear-gradient(323deg, #df326d, #fb5144);
     color: #ffffff;
     padding: 60px 0 20px 0;
-    font-family: Arial, sans-serif;
 }
 
 .columnas {
@@ -121,12 +120,10 @@ button {
 
 .columna h4 {
     font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .columna p {
-    font-size: 14px;
     margin: 8px 0;
     opacity: 0.85;                     
 }
@@ -134,7 +131,7 @@ button {
 hr {
     width: 85%;
     height: 1px;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgb(255, 255, 255);
     margin: 40px auto 20px auto;
 }
 
@@ -143,6 +140,5 @@ hr {
     margin: auto;
     display: flex;                     
     justify-content: space-between;    
-    font-size: 13px;
     opacity: 0.85;
 }
